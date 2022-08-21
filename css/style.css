@@ -25,10 +25,10 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo img {
+.logo img {
     width: 120px;
 }
-.navbar .list {
+.list {
     list-style-type: none;
     display: flex;
     color: #FFFFFF;
@@ -36,10 +36,10 @@ body {
     align-items: center;
     font-weight: 500;
 }
-.navbar .list .list-item {
+.list .list-item {
     cursor: pointer;
 }
-.navbar .list .list-item:last-child {
+.list .list-item:last-child {
     text-align: center;
 }
 .navbar .line::after {
@@ -60,10 +60,10 @@ body {
     color: #FFFFFF;
     height: 50vh;
 }
-.hero .left h1 {
+.left h1 {
     font-size: 3.4rem;
 }
-.hero .left button {
+.left button {
     background-color: transparent;
     border: 2.8px solid #FFFFFF;
     color: inherit;
@@ -73,10 +73,10 @@ body {
     margin-top: 40px;
     font-weight: 600;
 }
-.hero .right {
+.right {
     position: relative;
 }
-.hero .right .square {
+.right .square {
     background-color: rgba(255,255,255,.4);
     margin-bottom: 20px;
     position: absolute;
@@ -85,7 +85,7 @@ body {
     padding: 10px 20px;
     height: 135px;
 }
-.hero .right .square:last-child {
+.square:last-child {
     background-color: rgba(255,255,255,.4);
     margin-bottom: 20px;
     position: absolute;
@@ -94,15 +94,15 @@ body {
     padding: 10px 20px;
     height: 150px;
 }
-.hero .right .square:nth-child(1) {
+.square:nth-child(1) {
     right: 100px;
     top: -150px;
 }
-.hero .right .square:nth-child(2) {
+.square:nth-child(2) {
     right: 500px;
     top: 100px;
 }
-.hero .right .square:nth-child(1) .icon {
+.square:nth-child(1) .icon {
     background-color: #FFFFFF;
     height: 40px;
     width: 80px;
@@ -114,10 +114,10 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.hero .right .square:nth-child(1) .icon i {
+.square:nth-child(1) .icon i {
     font-size: 1.6rem;
 }
-.hero .right .square:nth-child(2) .icon {
+.square:nth-child(2) .icon {
     background-color: #FFFFFF;
     height: 40px;
     width: 80px;
@@ -129,7 +129,7 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.hero .right .square:nth-child(2) .icon i {
+.square:nth-child(2) .icon i {
     font-size: 1.6rem;
 }
 .square:first-child .circle-line {
