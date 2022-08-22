@@ -158,3 +158,106 @@ body {
     bottom: 0;
     left: -8px;
 }
+
+@media only screen and (max-width: 1030px) {
+    .hero .left h1 {
+        font-size: 2.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 981px) {
+    .navbar {
+        height: 12vh;
+    }
+    .logo {
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+    .logo img {
+        width: 100px !important; 
+    }
+    .navbar .list {
+        font-size: .9rem;
+        margin-top: 20px !important;
+    }
+    .navbar .list .list-item {
+        width: 80px;
+    }
+    .navbar .list .list-item:last-child {
+        width: 180px;
+    }
+    .hero .left {
+        margin-top: 140px;
+        margin-left: 40px;
+    }
+    .hero .left h1 {
+        font-size: 1.4rem !important;
+    }
+    .hero .right .square:nth-child(1) {
+        right: 10px;
+    }
+    .hero .right .square:nth-child(2) {
+        right: 150px !important;
+        top: 250px !important;
+    }
+    .square:first-child .circle-line {
+        top: 125px;
+        left: 180px;
+    }
+    .hero .left button {
+        border-radius: 40px;
+        padding: 12px 40px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .hero .right .square {
+        right: 0px;
+        width: 180px;
+        padding: 10px 20px;
+        height: 105px;
+    }
+    .hero .right .square:last-child {
+        right: 0px;
+        width: 180px !important;
+        padding: 10px 20px;
+        height: 130px !important;
+    }
+    .hero .right .square:last-child p {
+        font-size: .8rem !important;
+    }
+    .hero .right .square p {
+        font-size: .8rem;
+    }
+    .hero .right .square:last-child {
+        background-color: rgba(255,255,255,.4);
+        margin-bottom: 20px;
+        position: absolute;
+        right: 0px;
+        width: 250px;
+        padding: 10px 20px;
+        height: 150px;
+    }
+    .hero .right .square:nth-child(1) .icon {
+        background-color: #FFFFFF;
+        height: 24px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    .hero .right .square:nth-child(2) .icon {
+        background-color: #FFFFFF;
+        height: 24px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    .hero .right .square:nth-child(1) .icon i {
+        font-size: .9rem;
+    }
+    .hero .right .square:nth-child(2) .icon i {
+        font-size: .9rem;
+    }
+    .hero .left h1 {
+        font-size: 1rem;
+    }
+}
